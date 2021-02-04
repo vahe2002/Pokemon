@@ -1,0 +1,158 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "f8db95d4-2181-4f87-b80d-b2d88c6a7e70",
+			"name": "Talang API",
+			"description": "Tester för talangprogrammets API",
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"33cc8267-721e-4f32-a954-83468a2b0983",
+				"4562daef-09d6-47f6-80d7-ad7309a57670",
+				"c12d55f3-cd91-4cc0-b0c3-2e94dad1a5c0",
+				"c6d65ee3-b975-4021-b879-61bb5eaea964",
+				"46552e7b-4472-4463-aaa0-b26461958914"
+			],
+			"folders_order": [],
+			"folders": [],
+			"requests": [
+				{
+					"id": "33cc8267-721e-4f32-a954-83468a2b0983",
+					"name": "Create",
+					"url": "https://localhost:5001/api/todo",
+					"description": "Create",
+					"data": [],
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f8db95d4-2181-4f87-b80d-b2d88c6a7e70",
+					"rawModeData": "{\n  \"name\": \"walk dog\",\n  \"isComplete\": false\n}",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "4562daef-09d6-47f6-80d7-ad7309a57670",
+					"name": "GetAll",
+					"url": "https://localhost:5001/api/todo",
+					"description": "Create",
+					"data": [],
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f8db95d4-2181-4f87-b80d-b2d88c6a7e70",
+					"rawModeData": "{\n  \"key\": 1,\n  \"name\": \"walk dog\",\n  \"isComplete\": true\n}",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "46552e7b-4472-4463-aaa0-b26461958914",
+					"name": "Delete",
+					"url": "https://localhost:5001/api/todo/1",
+					"description": "Create",
+					"data": [],
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"enabled": false
+						}
+					],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f8db95d4-2181-4f87-b80d-b2d88c6a7e70",
+					"rawModeData": "",
+					"headers": "//Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "c12d55f3-cd91-4cc0-b0c3-2e94dad1a5c0",
+					"name": "GetId",
+					"url": "https://localhost:5001/api/todo/1",
+					"description": "Create",
+					"data": [],
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f8db95d4-2181-4f87-b80d-b2d88c6a7e70",
+					"rawModeData": "{\n  \"key\": 1,\n  \"name\": \"walk dog\",\n  \"isComplete\": true\n}",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "c6d65ee3-b975-4021-b879-61bb5eaea964",
+					"name": "Update",
+					"url": "https://localhost:5001/api/todo/1",
+					"description": "Create",
+					"data": [],
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [],
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "f8db95d4-2181-4f87-b80d-b2d88c6a7e70",
+					"rawModeData": "{\n  \"key\": 1,\n  \"name\": \"walk cat\",\n  \"isComplete\": true\n}",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [],
+	"headerPresets": [],
+	"globals": []
+}
